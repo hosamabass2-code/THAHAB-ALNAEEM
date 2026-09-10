@@ -13,7 +13,7 @@ import fs from "fs";
 import path from "path";
 
 const PORT = Number(process.env.PORT || 10000);
-const DATA_DIR = process.env.DATA_DIR || "/var/data";
+const DATA_DIR = process.env.DATA_DIR || "./data";
 const AUTH_DIR = path.join(DATA_DIR, "auth");
 const DATA_FILE = path.join(DATA_DIR, "bot-data.json");
 
